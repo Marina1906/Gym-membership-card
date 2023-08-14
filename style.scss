@@ -1,0 +1,46 @@
+$clr-white-200: rgba(255, 255, 255, 1);
+$clr-black-800: rgba(0, 0, 0, 1);
+$clr-blue-700: rgba(51, 0, 162, 1);
+$clr-violet-600: rgba(150, 132, 189, 1);
+$clr-violet-200: rgba(238, 229, 255, 1);
+$clr-gradient-600: linear-gradient(90deg, #dc3c80 0%, #802d80 100%);
+$clr-gradient-700: rgba(128, 45, 128, 1);
+$clr-pink-600: rgba(220, 60, 128, 1);
+
+$fw-normal: 400;
+$fw-bold: 700;
+
+$fs-1: 24px;
+$fs-2: 16px;
+
+body {
+  background-color: $clr-violet-200;
+}
+.card-wrapper {
+  display: grid;
+  justify-items: center;
+  background-color: $clr-white-200;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2rem;
+  row-gap: 1rem;
+}
+.bg-img body {
+    overflow: hidden;
+    border-radius: 2rem;
+}
+hr {
+  color: $clr-pink-600;
+  width: 200px;
+}
+button{
+    background-color: $clr-blue-700;
+    color: $clr-white-200;
+    border-radius: 3rem;
+    font-size: $fs-2;
+    font-weight: $fw-bold;
+    width: 158px;
+    height: 54px;
+
+}

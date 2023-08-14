@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(238, 229, 255);
+}
+
+.card-wrapper {
+  display: grid;
+  justify-items: center;
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2rem;
+  row-gap: 1rem;
+}
+
+.bg-img body {
+  overflow: hidden;
+  border-radius: 2rem;
+}
+
+hr {
+  color: rgb(220, 60, 128);
+  width: 200px;
+}
+
+button {
+  background-color: rgb(51, 0, 162);
+  color: rgb(255, 255, 255);
+  border-radius: 3rem;
+  font-size: 16px;
+  font-weight: 700;
+  width: 158px;
+  height: 54px;
+}
+
+/*# sourceMappingURL=style.css.map */
