@@ -4,3 +4,4 @@ Elements are formed, nested and shaped using CSS & SCCS # Gym-membership-card
 Flex & Grid
 html form
 SASS/CSS style
+linear gradients
